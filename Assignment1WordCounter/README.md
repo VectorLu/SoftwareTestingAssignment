@@ -42,13 +42,13 @@ $ bash testAndDetails.sh
         - ...
     - src   // 核心程序和运行脚本
         - WordCounter.java   // 核心功能源程序
-        - WordCounter.class  // 可直接运行的字节码文件（运行脚本依赖于此，勿删）
-        - testAndDetails.sh  // 用来一键测试的脚本
+        - WordCounter.class  // 可直接运行的字节码文件（运行脚本依赖于此，勿删）
+        - testAndDetails.sh  // 用来一键测试的脚本
         - jarBuild.sh        // 用来一键打包 `.jar` 文件的脚本
     - test  // 测试目录
-        - testCases    // 测试用例，测试说明详见 testAndDetails.sh 源文件
+        - testCases    // 测试用例，测试说明详见testAndDetails.sh 源文件
         - testOutput   // 测试结果
-        - testScript   // Java 测试脚本
+        - testScript   // Java 测试脚本
             - unitTest    // 部分单元测试，用 `java className` 直接运行测试
                 - AllFileGetterTest.java/class
                 - IsFileMatchTest.java/class
